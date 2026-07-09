@@ -1,0 +1,204 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mapsted",
+    "module": "android-sdk-bom",
+    "version": "26.7.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-core",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-map",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-ui",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-ui-components",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-geofence",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-geofence-offline",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-loc-marketing",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-inapp-notification",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-topbar-notifications",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-loc-share",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-app-template",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-app-template-core",
+          "version": {
+            "requires": "26.7.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-core",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-map",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-ui",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-ui-components",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-geofence",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-geofence-offline",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-loc-marketing",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-inapp-notification",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-topbar-notifications",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-loc-share",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-app-template",
+          "version": {
+            "requires": "26.7.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-app-template-core",
+          "version": {
+            "requires": "26.7.1"
+          }
+        }
+      ]
+    }
+  ]
+}
