@@ -1,6 +1,6 @@
 # Mapsted Android SDK — Maven distribution
 
-Public Maven repository hosting the **Mapsted Android SDK `26.7.1`** client artifacts
+Public Maven repository hosting the **Mapsted Android SDK `26.8.1`** client artifacts
 (`com.mapsted:android-sdk-*`). Served as static files via GitHub Pages — no authentication required.
 
 **Full integration guide:** https://developer.mapsted.com/mobile-sdk/
@@ -28,14 +28,14 @@ repositories {
 ```groovy
 android {
     defaultConfig {
-        minSdkVersion 26                                   // SDK 26.7.1 requires minSdk 26
+        minSdkVersion 26                                   // SDK 26.8.1 requires minSdk 26
         manifestPlaceholders = [versionCode: "1", dateString: "2026-07-09"]  // required by the SDK
     }
 }
 
 dependencies {
     // BOM aligns all module versions
-    implementation platform('com.mapsted:android-sdk-bom:26.7.1')
+    implementation platform('com.mapsted:android-sdk-bom:26.8.1')
 
     implementation 'com.mapsted:android-sdk-core'
     implementation 'com.mapsted:android-sdk-map'
@@ -57,7 +57,7 @@ dependencies {
 -dontwarn org.joda.convert.**
 ```
 
-## Modules (`26.7.1`)
+## Modules (`26.8.1`)
 
 | Artifact | Purpose |
 |---|---|
