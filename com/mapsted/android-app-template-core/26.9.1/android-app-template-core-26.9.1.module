@@ -1,0 +1,429 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mapsted",
+    "module": "android-app-template-core",
+    "version": "26.9.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-loc-marketing",
+          "version": {
+            "requires": "26.9.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-ui-components",
+          "version": {
+            "requires": "26.9.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-ui",
+          "version": {
+            "requires": "26.9.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-inapp-notification",
+          "version": {
+            "requires": "26.9.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-topbar-notifications",
+          "version": {
+            "requires": "26.9.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-geofence",
+          "version": {
+            "requires": "26.9.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-loc-share",
+          "version": {
+            "requires": "26.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-ktx",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-app-template-core-26.9.1.aar",
+          "url": "android-app-template-core-26.9.1.aar",
+          "size": 3252481,
+          "sha512": "7d6c74fa018ac7196a818ecad0e76e63df222b9b171079e7ceea4a02f79f3f58be0f0d2ecb872cd9f510648e29ec6c42846982534eb3a606cafc6e69d228d008",
+          "sha256": "2152d5a3073a7059e3983487495878e674cdd7573d2fcb2cc411ba02e1f3d17e",
+          "sha1": "f52cc15e3a7cdaed608c50c76dfce4a9f300ee69",
+          "md5": "d0b98c6fa756790d5afbaedea8be301c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.coordinatorlayout",
+          "module": "coordinatorlayout",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "androidx.multidex",
+          "module": "multidex",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment",
+          "version": {
+            "requires": "2.7.7"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-ui",
+          "version": {
+            "requires": "2.7.7"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.8.7"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common-java8",
+          "version": {
+            "requires": "2.8.7"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.palette",
+          "module": "palette",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.viewpager2",
+          "module": "viewpager2",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "21.0.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-auth",
+          "version": {
+            "requires": "20.6.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "jp.wasabeef",
+          "module": "glide-transformations",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "com.mikepenz",
+          "module": "aboutlibraries",
+          "version": {
+            "requires": "6.2.3"
+          }
+        },
+        {
+          "group": "com.ms-square",
+          "module": "expandableTextView",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "joda-time",
+          "module": "joda-time",
+          "version": {
+            "requires": "2.10.2"
+          }
+        },
+        {
+          "group": "com.facebook.android",
+          "module": "facebook-login",
+          "version": {
+            "requires": "8.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.20"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-loc-marketing",
+          "version": {
+            "requires": "26.9.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-ui-components",
+          "version": {
+            "requires": "26.9.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-ui",
+          "version": {
+            "requires": "26.9.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-inapp-notification",
+          "version": {
+            "requires": "26.9.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-topbar-notifications",
+          "version": {
+            "requires": "26.9.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-geofence",
+          "version": {
+            "requires": "26.9.1"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-loc-share",
+          "version": {
+            "requires": "26.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-ktx",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-app-template-core-26.9.1.aar",
+          "url": "android-app-template-core-26.9.1.aar",
+          "size": 3252481,
+          "sha512": "7d6c74fa018ac7196a818ecad0e76e63df222b9b171079e7ceea4a02f79f3f58be0f0d2ecb872cd9f510648e29ec6c42846982534eb3a606cafc6e69d228d008",
+          "sha256": "2152d5a3073a7059e3983487495878e674cdd7573d2fcb2cc411ba02e1f3d17e",
+          "sha1": "f52cc15e3a7cdaed608c50c76dfce4a9f300ee69",
+          "md5": "d0b98c6fa756790d5afbaedea8be301c"
+        }
+      ]
+    }
+  ]
+}
