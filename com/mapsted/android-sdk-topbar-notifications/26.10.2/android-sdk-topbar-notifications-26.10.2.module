@@ -1,0 +1,275 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mapsted",
+    "module": "android-sdk-topbar-notifications",
+    "version": "26.10.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-core",
+          "version": {
+            "requires": "26.10.2"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-map",
+          "version": {
+            "requires": "26.10.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-ktx",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-sdk-topbar-notifications-26.10.2.aar",
+          "url": "android-sdk-topbar-notifications-26.10.2.aar",
+          "size": 912063,
+          "sha512": "033fa501c01858e2960f43b329d1328151600b11471983878dc1d3bdd31230555ed8b192b7059e3a995564310f81783ca5f74b739d869a67e8787ddaff836a7f",
+          "sha256": "ecc4fc0b9477764645e10b94d8b93e19f4f0e01f8294cd58ae7ec2029c7c4f1b",
+          "sha1": "f28f69f95dc093b1a01257f160641bb09f2eef9d",
+          "md5": "702b89dbefaf35634b8f06bd02220ed8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.viewpager2",
+          "module": "viewpager2",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "21.0.1"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "jp.wasabeef",
+          "module": "glide-transformations",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.20"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-core",
+          "version": {
+            "requires": "26.10.2"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-map",
+          "version": {
+            "requires": "26.10.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-ktx",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-sdk-topbar-notifications-26.10.2.aar",
+          "url": "android-sdk-topbar-notifications-26.10.2.aar",
+          "size": 912063,
+          "sha512": "033fa501c01858e2960f43b329d1328151600b11471983878dc1d3bdd31230555ed8b192b7059e3a995564310f81783ca5f74b739d869a67e8787ddaff836a7f",
+          "sha256": "ecc4fc0b9477764645e10b94d8b93e19f4f0e01f8294cd58ae7ec2029c7c4f1b",
+          "sha1": "f28f69f95dc093b1a01257f160641bb09f2eef9d",
+          "md5": "702b89dbefaf35634b8f06bd02220ed8"
+        }
+      ]
+    }
+  ]
+}
