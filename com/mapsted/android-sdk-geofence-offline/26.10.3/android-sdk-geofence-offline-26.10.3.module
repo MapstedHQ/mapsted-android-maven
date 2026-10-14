@@ -1,0 +1,177 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mapsted",
+    "module": "android-sdk-geofence-offline",
+    "version": "26.10.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-core",
+          "version": {
+            "requires": "26.10.3"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-ktx",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-sdk-geofence-offline-26.10.3.aar",
+          "url": "android-sdk-geofence-offline-26.10.3.aar",
+          "size": 69886,
+          "sha512": "0702550622ea2315e303a123eb13020a3d3eedca31186ea7b1caee9114776682d54eed41f2d0b089ad4500c6151db28a866c6a3230366053d5ae6ac90f6d3a23",
+          "sha256": "b7bdc2b22483f1362f17a49e6c4fc7587c09090614b6e0a1c3f77e9f6bd7108a",
+          "sha1": "b32bc4fbc8e4520e58dc05c9e3051d5f7aca3da7",
+          "md5": "84f5a5118588fc0ce97bd2ba76c26bd4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "21.0.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.20"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-core",
+          "version": {
+            "requires": "26.10.3"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-ktx",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-sdk-geofence-offline-26.10.3.aar",
+          "url": "android-sdk-geofence-offline-26.10.3.aar",
+          "size": 69886,
+          "sha512": "0702550622ea2315e303a123eb13020a3d3eedca31186ea7b1caee9114776682d54eed41f2d0b089ad4500c6151db28a866c6a3230366053d5ae6ac90f6d3a23",
+          "sha256": "b7bdc2b22483f1362f17a49e6c4fc7587c09090614b6e0a1c3f77e9f6bd7108a",
+          "sha1": "b32bc4fbc8e4520e58dc05c9e3051d5f7aca3da7",
+          "md5": "84f5a5118588fc0ce97bd2ba76c26bd4"
+        }
+      ]
+    }
+  ]
+}

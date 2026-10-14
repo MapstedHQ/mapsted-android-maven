@@ -1,0 +1,240 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mapsted",
+    "module": "android-sdk-loc-share",
+    "version": "26.10.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-core",
+          "version": {
+            "requires": "26.10.3"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-ui",
+          "version": {
+            "requires": "26.10.3"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-ktx",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-sdk-loc-share-26.10.3.aar",
+          "url": "android-sdk-loc-share-26.10.3.aar",
+          "size": 161494,
+          "sha512": "b1385a64db0a35125c1801c2334d6f2bd1175cde12ae3bc5cdb6079fb00482b12c475b28b77c2c628d823a2c538597e3227e216b0b763a1afdef72c64095590b",
+          "sha256": "c53ae2839d8da69732921fbbae21811547606901abfa9f2aaf7b5340fb6d01a1",
+          "sha1": "e6353268a599258edc4e39b0aa6b31e4437518a4",
+          "md5": "48671f09a0da0b71e2da8a34f5eba81e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "2.3.20"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-core",
+          "version": {
+            "requires": "26.10.3"
+          }
+        },
+        {
+          "group": "com.mapsted",
+          "module": "android-sdk-ui",
+          "version": {
+            "requires": "26.10.3"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-ktx",
+          "version": {
+            "requires": "8.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-sdk-loc-share-26.10.3.aar",
+          "url": "android-sdk-loc-share-26.10.3.aar",
+          "size": 161494,
+          "sha512": "b1385a64db0a35125c1801c2334d6f2bd1175cde12ae3bc5cdb6079fb00482b12c475b28b77c2c628d823a2c538597e3227e216b0b763a1afdef72c64095590b",
+          "sha256": "c53ae2839d8da69732921fbbae21811547606901abfa9f2aaf7b5340fb6d01a1",
+          "sha1": "e6353268a599258edc4e39b0aa6b31e4437518a4",
+          "md5": "48671f09a0da0b71e2da8a34f5eba81e"
+        }
+      ]
+    }
+  ]
+}
